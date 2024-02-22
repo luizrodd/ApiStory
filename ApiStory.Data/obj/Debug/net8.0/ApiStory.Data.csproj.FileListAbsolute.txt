@@ -1,0 +1,14 @@
+C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory.Data\obj\Debug\net8.0\ApiStory.Data.csproj.AssemblyReference.cache
+C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory.Data\obj\Debug\net8.0\ApiStory.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory.Data\obj\Debug\net8.0\ApiStory.Data.AssemblyInfoInputs.cache
+C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory.Data\obj\Debug\net8.0\ApiStory.Data.AssemblyInfo.cs
+C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory.Data\obj\Debug\net8.0\ApiStory.Data.csproj.CoreCompileInputs.cache
+C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory.Data\bin\Debug\net8.0\ApiStory.Data.deps.json
+C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory.Data\bin\Debug\net8.0\ApiStory.Data.runtimeconfig.json
+C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory.Data\bin\Debug\net8.0\ApiStory.Data.dll
+C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory.Data\bin\Debug\net8.0\ApiStory.Data.pdb
+C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory.Data\obj\Debug\net8.0\ApiStory.Data.dll
+C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory.Data\obj\Debug\net8.0\refint\ApiStory.Data.dll
+C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory.Data\obj\Debug\net8.0\ApiStory.Data.pdb
+C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory.Data\obj\Debug\net8.0\ApiStory.Data.genruntimeconfig.cache
+C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory.Data\obj\Debug\net8.0\ref\ApiStory.Data.dll

@@ -1,0 +1,15 @@
+C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory.Service\bin\Debug\net8.0\ApiStory.Service.deps.json
+C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory.Service\bin\Debug\net8.0\ApiStory.Service.dll
+C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory.Service\bin\Debug\net8.0\ApiStory.Service.pdb
+C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory.Service\obj\Debug\net8.0\ApiStory.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory.Service\obj\Debug\net8.0\ApiStory.Service.AssemblyInfoInputs.cache
+C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory.Service\obj\Debug\net8.0\ApiStory.Service.AssemblyInfo.cs
+C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory.Service\obj\Debug\net8.0\ApiStory.Service.csproj.CoreCompileInputs.cache
+C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory.Service\obj\Debug\net8.0\ApiStory.Service.dll
+C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory.Service\obj\Debug\net8.0\refint\ApiStory.Service.dll
+C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory.Service\obj\Debug\net8.0\ApiStory.Service.pdb
+C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory.Service\obj\Debug\net8.0\ref\ApiStory.Service.dll
+C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory.Service\bin\Debug\net8.0\ApiStory.Data.dll
+C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory.Service\bin\Debug\net8.0\ApiStory.Data.pdb
+C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory.Service\obj\Debug\net8.0\ApiStory.Service.csproj.AssemblyReference.cache
+C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory.Service\obj\Debug\net8.0\ApiStory.Service.csproj.CopyComplete
