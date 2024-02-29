@@ -4,7 +4,6 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ApiStory.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
     public class VotesController : ControllerBase
     {
@@ -17,6 +16,7 @@ namespace ApiStory.Controllers
         [HttpPost]
         [ProducesResponseType(201)]
         [ProducesResponseType(404)]
+        [Route("api/Stories/{storyId}/Votes")]
         public async Task<IActionResult> Create(bool like, int storyId, int clientId)
         {
             var vote = await _voteService.Create(like,storyId,clientId);

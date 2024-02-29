@@ -1,10 +1,16 @@
-﻿using ApiStory.Service.DTO;
+﻿using ApiStory.Handlers;
+using ApiStory.Requests;
+using ApiStory.Response;
+using ApiStory.Service;
+using ApiStory.Service.DTO;
 using ApiStory.Service.Interface;
 using ApiStory.ViewModel;
+using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Query.SqlExpressions;
 using Newtonsoft.Json.Linq;
+using System.ComponentModel.Design;
 
 namespace ApiStory.Controllers
 {
@@ -21,10 +27,11 @@ namespace ApiStory.Controllers
         [HttpGet]
         [ProducesResponseType(200)]
         [ProducesResponseType(204)]
-        public async Task<IActionResult> GetAll()
+        public async Task<IActionResult> GetAll([FromServices] IMediator mediator)
         {
-            IEnumerable<StoryDTO> storyDTO = await _storyService.GetAll();
-            List<StoryViewModel> storyViewModel = storyDTO.Select(x => new StoryViewModel()
+            var request = new FindAllStoryRequest();
+            var story = await mediator.Send(request);
+            List<StoryViewModel> storyViewModel = story.Select(x => new StoryViewModel()
             {
                 Id = x.Id,
                 Area = x.Area,
@@ -41,62 +48,48 @@ namespace ApiStory.Controllers
             })
                 .ToList();
 
-            if(storyViewModel.Count == 0)
+            if (storyViewModel.Count == 0)
             {
                 return NoContent();
             }
 
             return StatusCode(200, storyViewModel);
         }
-        [HttpGet("{id}")]
+
+        [HttpGet]
         [ProducesResponseType(200)]
+        [Route("/id")]
         [ProducesResponseType(404)]
-        public async Task<IActionResult> GetById(int id)
+        public async Task<IActionResult> GetById([FromServices] IMediator mediator, [FromQuery] FindStoryByIdRequest command)
         {
-            var storyDTO = await _storyService.GetById(id);
-            if (storyDTO != null)
-            {
-                StoryViewModel storyViewModel = new StoryViewModel()
-                {
-                    Area = storyDTO.Area,
-                    Description = storyDTO.Description,
-                    Title = storyDTO.Title,
-                    Votes = storyDTO.Votes.Select(x => new VoteViewModel()
-                    {
-                        Like = x.Like,
-                        Client = new ClientViewModel() { Name = x.Client.Name }
-                    }).ToList()
-                };
-                return Ok(storyViewModel);
-            }
-            return NotFound();
+            var storyDTO = await mediator.Send(command);
+            return Ok(storyDTO);
         }
         [HttpPost]
-        [ProducesResponseType(201)]
+        [ProducesResponseType(200)]
         [ProducesResponseType(400)]
-        public async Task<IActionResult> Create(string title, string description, string area)
+        public async Task<IActionResult> Create([FromServices] IMediator mediator, [FromBody] CreateStoryRequest command)
         {
-            if(title == null || description == null || area == null) 
+            if (command.Title == null || command.Description == null || command.Area == null)
             {
                 return BadRequest();
             }
-            await _storyService.Create(area,title,description);
-
-            return StatusCode(201,"Criado"); 
+            var response = await mediator.Send(command);
+            return Ok(response);
         }
         [HttpPut("{id}")]
         [ProducesResponseType(200)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
-        public async Task<IActionResult> Update(int id, string title, string description, string area)
+        public async Task<IActionResult> Update([FromServices] IMediator mediator, int id, [FromBody] UpdateStoryRequest command)
         {
-
-            if(title == null || description == null || area == null)
+            command.Id = id;
+            if (command.Title == null || command.Description == null || command.Area == null)
             {
                 return BadRequest();
             }
-            var story = await _storyService.Update(id,title,description,area); 
-            if(story == false)
+            var story = await mediator.Send(command);
+            if (story == false)
             {
                 return NotFound();
             }
@@ -105,18 +98,15 @@ namespace ApiStory.Controllers
         [HttpDelete("{id}")]
         [ProducesResponseType(200)]
         [ProducesResponseType(404)]
-        public async Task<IActionResult> Delete(int id)
+        public async Task<IActionResult> Delete([FromServices] IMediator mediator, [FromRoute] int id)
         {
-
-            var story = await _storyService.Delete(id);
-            if(story == false)
+            var command = new DeleteStoryRequest { Id = id };
+            var story = await mediator.Send(command);
+            if(!story)
             {
                 return NotFound();
             }
-            else
-            {
-                return StatusCode(200, "Deletado");
-            }
+            return StatusCode(200);
         }
 
     }

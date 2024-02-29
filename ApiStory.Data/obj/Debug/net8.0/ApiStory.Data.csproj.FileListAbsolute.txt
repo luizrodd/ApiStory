@@ -12,3 +12,4 @@ C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory.Data\obj\Debug\net8.0\ref
 C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory.Data\obj\Debug\net8.0\ApiStory.Data.pdb
 C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory.Data\obj\Debug\net8.0\ApiStory.Data.genruntimeconfig.cache
 C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory.Data\obj\Debug\net8.0\ref\ApiStory.Data.dll
+C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory.Data\obj\Debug\net8.0\ApiStory.Data.sourcelink.json

@@ -1,7 +1,12 @@
 using ApiStory.Data;
+using ApiStory.Handlers;
+using ApiStory.Requests;
+using ApiStory.Response;
 using ApiStory.Service;
 using ApiStory.Service.Interface;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,6 +27,11 @@ builder.Services.AddCors(p => p.AddPolicy("AllowOrigin", build =>
 builder.Services.AddScoped<IStoryService, StoryService>();
 builder.Services.AddScoped<IVoteService, VoteService>();
 builder.Services.AddScoped<IClientService, ClientService>();
+builder.Services.AddScoped<IRequestHandler<CreateStoryRequest, CreateStoryResponse>, CreateStoryHandler>();
+builder.Services.AddScoped<IRequestHandler<UpdateStoryRequest, bool>, UpdateStoryHandler>();
+builder.Services.AddScoped<IRequestHandler<DeleteStoryRequest, bool>, DeleteStoryHandler>();
+builder.Services.AddScoped<IRequestHandler<FindAllStoryRequest, List<StoryResponse>>, FindAllStoryHandler>();
+builder.Services.AddMediatR(Assembly.GetExecutingAssembly());
 
 
 var app = builder.Build();

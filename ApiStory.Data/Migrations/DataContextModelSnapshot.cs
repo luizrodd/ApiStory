@@ -36,7 +36,7 @@ namespace ApiStory.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Clients");
+                    b.ToTable("Clients", (string)null);
                 });
 
             modelBuilder.Entity("ApiStory.Data.Models.Story", b =>
@@ -64,7 +64,7 @@ namespace ApiStory.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Stories");
+                    b.ToTable("Stories", (string)null);
                 });
 
             modelBuilder.Entity("ApiStory.Data.Models.Vote", b =>
@@ -90,7 +90,7 @@ namespace ApiStory.Data.Migrations
 
                     b.HasIndex("StoryId");
 
-                    b.ToTable("Votes");
+                    b.ToTable("Votes", (string)null);
                 });
 
             modelBuilder.Entity("ApiStory.Data.Models.Vote", b =>

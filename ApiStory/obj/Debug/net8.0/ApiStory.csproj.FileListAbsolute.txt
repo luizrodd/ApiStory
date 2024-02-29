@@ -264,3 +264,7 @@ C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory\bin\Debug\net8.0\runtimes
 C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory\bin\Debug\net8.0\ApiStory.Service.dll
 C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory\bin\Debug\net8.0\ApiStory.Service.pdb
+C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory\obj\Debug\net8.0\ApiStory.sourcelink.json
+C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory\bin\Debug\net8.0\MediatR.dll
+C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory\bin\Debug\net8.0\MediatR.Contracts.dll
+C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory\bin\Debug\net8.0\MediatR.Extensions.Microsoft.DependencyInjection.dll

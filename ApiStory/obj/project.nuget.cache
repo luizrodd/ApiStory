@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Lq0fEo1MtVlUa4FmhHiP6iull7tFwYt/Yj3aS0x2Yxv6phvMvPMu3k+zhtPHYvlGatti3ey7N+Wl0lLeT/ftrg==",
+  "dgSpecHash": "AxoOzcpkJ6sRpvRbrqlFMz0/SZJ8tDYaK4RpeFW2lizyjaQcKhQngjljRqDU2BdpQ1DWfhdsyT2qQTCwfTTyyw==",
   "success": true,
   "projectFilePath": "C:\\Users\\luiz.rodrigues\\source\\repos\\ApiStory\\ApiStory\\ApiStory.csproj",
   "expectedPackageFiles": [
@@ -56,6 +56,9 @@
     "C:\\Users\\luiz.rodrigues\\.nuget\\packages\\humanizer.core.zh-cn\\2.14.1\\humanizer.core.zh-cn.2.14.1.nupkg.sha512",
     "C:\\Users\\luiz.rodrigues\\.nuget\\packages\\humanizer.core.zh-hans\\2.14.1\\humanizer.core.zh-hans.2.14.1.nupkg.sha512",
     "C:\\Users\\luiz.rodrigues\\.nuget\\packages\\humanizer.core.zh-hant\\2.14.1\\humanizer.core.zh-hant.2.14.1.nupkg.sha512",
+    "C:\\Users\\luiz.rodrigues\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
+    "C:\\Users\\luiz.rodrigues\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\luiz.rodrigues\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
     "C:\\Users\\luiz.rodrigues\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.1\\microsoft.aspnetcore.authorization.8.0.1.nupkg.sha512",
     "C:\\Users\\luiz.rodrigues\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.1\\microsoft.aspnetcore.components.8.0.1.nupkg.sha512",
     "C:\\Users\\luiz.rodrigues\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\8.0.1\\microsoft.aspnetcore.components.analyzers.8.0.1.nupkg.sha512",

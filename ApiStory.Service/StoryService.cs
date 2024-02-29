@@ -32,7 +32,7 @@ public class StoryService(DataContext data) : IStoryService
                         Name = y.Client.Name,
                     }
                 })
-            }).OrderByDescending(x => x.Votes.Count(y => y.Like) - x.Votes.Count(y => !y.Like))
+            }).OrderByDescending(x => x.Votes.Sum(x => x.Like ? 1 : -1))
             .ToListAsync();
         return story;
     }

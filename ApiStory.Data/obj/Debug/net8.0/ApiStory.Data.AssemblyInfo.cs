@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiStory.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+28434967f9b463b0696645487c56ee5765911d5a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiStory.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiStory.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

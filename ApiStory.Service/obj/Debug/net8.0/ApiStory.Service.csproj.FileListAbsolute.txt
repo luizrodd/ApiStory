@@ -13,3 +13,4 @@ C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory.Service\bin\Debug\net8.0\
 C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory.Service\bin\Debug\net8.0\ApiStory.Data.pdb
 C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory.Service\obj\Debug\net8.0\ApiStory.Service.csproj.AssemblyReference.cache
 C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory.Service\obj\Debug\net8.0\ApiStory.Service.csproj.CopyComplete
+C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory.Service\obj\Debug\net8.0\ApiStory.Service.sourcelink.json

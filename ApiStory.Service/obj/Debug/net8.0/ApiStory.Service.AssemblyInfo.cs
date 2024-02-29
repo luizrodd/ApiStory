@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiStory.Service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+28434967f9b463b0696645487c56ee5765911d5a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiStory.Service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiStory.Service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

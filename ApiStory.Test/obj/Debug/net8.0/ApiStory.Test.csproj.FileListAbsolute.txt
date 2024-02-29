@@ -343,3 +343,4 @@ C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory.Test\obj\Debug\net8.0\Api
 C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory.Test\obj\Debug\net8.0\ApiStory.Test.genruntimeconfig.cache
 C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory.Test\obj\Debug\net8.0\ref\ApiStory.Test.dll
 C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory.Test\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\luiz.rodrigues\source\repos\ApiStory\ApiStory.Test\obj\Debug\net8.0\ApiStory.Test.sourcelink.json
